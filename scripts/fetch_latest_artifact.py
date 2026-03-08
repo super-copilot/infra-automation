@@ -321,7 +321,7 @@ def main(argv: list[str]) -> int:
     output_name = args.output.strip() or default_latest_name(best.name)
     output_path = dest_dir / output_name
 
-    if args.dry-run:
+    if args.dry_run:
         print(f"[dry-run] 将写入：{output_path}")
         return 0
 
