@@ -1,0 +1,7 @@
+replicaCount: 1
+
+image:
+  repository: example/infra-tool
+  tag: latest
+
+resources: {}
